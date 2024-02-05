@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "legal-term-api"
+version = "0.1.0"
+description = "Legal term API"
+authors = ["conwaytext <conway@casetext.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
